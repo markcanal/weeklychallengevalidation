@@ -5,7 +5,9 @@ import android.view.View
 import android.widget.Spinner
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
     private var spinner: Spinner? = null
     private var userNameContainer: View? = null
