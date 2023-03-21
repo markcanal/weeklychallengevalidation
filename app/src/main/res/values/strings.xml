@@ -6,4 +6,6 @@
     <string name="mobile_number_label">Mobile Number</string>
     <string name="birthdate_label">Birthdate</string>
     <string name="age_label">Age</string>
+    <string name="age_value_text">%1$s</string>
+
 </resources>
