@@ -36,6 +36,6 @@ ext {
     espressoVersion3_5_1 = '3.5.1'
     espressoAndroidTestImplementation = "androidx.test.espresso:espresso-core:$espressoVersion3_5_1"
 
-    hiltImplementation = "com.google.dagger:hilt-android:$hilt_version2_44"
-    hiltAnnotationProcessor = "com.google.dagger:hilt-android-compiler:$hilt_version2_44"
+    hiltImplementation = "com.google.dagger:hilt-android:$hilt_version2_45"
+    hiltAnnotationProcessor = "com.google.dagger:hilt-android-compiler:$hilt_version2_45"
 }
