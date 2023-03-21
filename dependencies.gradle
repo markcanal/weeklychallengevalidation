@@ -1,0 +1,41 @@
+ext {
+//    coreJavaImplementation = "androidx.core:core:$kotlin_version1_7_0"
+
+    kotlinVerion1_9_0 = '1.9.0'
+    appCompatVersion1_6_1 = '1.6.1'
+    coreKotlinImplementation = "androidx.core:core-ktx:$kotlinVerion1_9_0"
+    appCompatImplementation = "androidx.appcompat:appcompat:$appCompatVersion1_6_1"
+
+    googleMaterialVersion1_8_0 = '1.8.0'
+    googleDependencies = [
+            material: "com.google.android.material:material:$googleMaterialVersion1_8_0"
+    ]
+
+    androidxVersion1_6_1 = '1.6.1'
+    androidxVersion1_5_5 = '1.5.5'
+    androidxVersion2_6_0 = '2.6.0'
+    androidxDependencies = [
+            activity : "androidx.activity:activity-ktx:$androidxVersion1_6_1",
+            fragment : "androidx.fragment:fragment-ktx:$androidxVersion1_5_5",
+            viewModel: "androidx.lifecycle:lifecycle-viewmodel-ktx:$androidxVersion2_6_0",
+            lifecycle: "androidx.lifecycle:lifecycle-runtime-ktx:$androidxVersion2_6_0"
+    ]
+
+    coroutineVersion1_4_1 = '1.4.1'
+    coroutineImplementation = "org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutineVersion1_4_1"
+
+    constraintLayoutVersion2_1_4 = '2.1.4'
+    constraintLayoutImplementation = "androidx.constraintlayout:constraintlayout:$constraintLayoutVersion2_1_4"
+
+    jUnitVersion4_13_2 = '4.13.2'
+    junitTestImplementation = "junit:junit:$jUnitVersion4_13_2"
+
+    jUnitTestVersion1_1_5 = '1.1.5'
+    junitAndroidTestImplementation = "androidx.test.ext:junit:$jUnitTestVersion1_1_5"
+
+    espressoVersion3_5_1 = '3.5.1'
+    espressoAndroidTestImplementation = "androidx.test.espresso:espresso-core:$espressoVersion3_5_1"
+
+    hiltImplementation = "com.google.dagger:hilt-android:$hilt_version2_44"
+    hiltAnnotationProcessor = "com.google.dagger:hilt-android-compiler:$hilt_version2_44"
+}

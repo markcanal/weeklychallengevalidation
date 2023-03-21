@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Validation POC</string>
+    <string name="submit_btn_label">Submit</string>
+    <string name="full_name_label">Full Name</string>
+    <string name="email_label">Email</string>
+    <string name="mobile_number_label">Mobile Number</string>
+    <string name="birthdate_label">Birthdate</string>
+    <string name="age_label">Age</string>
+</resources>
