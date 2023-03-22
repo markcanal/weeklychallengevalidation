@@ -18,7 +18,8 @@ ext {
             activity : "androidx.activity:activity-ktx:$androidxVersion1_6_1",
             fragment : "androidx.fragment:fragment-ktx:$androidxVersion1_5_5",
             viewModel: "androidx.lifecycle:lifecycle-viewmodel-ktx:$androidxVersion2_6_0",
-            lifecycle: "androidx.lifecycle:lifecycle-runtime-ktx:$androidxVersion2_6_0"
+            lifecycle: "androidx.lifecycle:lifecycle-runtime-ktx:$androidxVersion2_6_0",
+
     ]
 
     coroutineVersion1_4_1 = '1.4.1'

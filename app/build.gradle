@@ -42,11 +42,13 @@ dependencies {
     implementation coreKotlinImplementation
     implementation appCompatImplementation
     implementation googleDependencies.material
+    implementation androidxDependencies.fragment
+    implementation androidxDependencies.viewModel
+    implementation androidxDependencies.lifecycle
     implementation constraintLayoutImplementation
     testImplementation junitTestImplementation
     androidTestImplementation junitAndroidTestImplementation
     androidTestImplementation espressoAndroidTestImplementation
-
     //Hilt
     implementation hiltImplementation
     kapt(hiltAnnotationProcessor)
