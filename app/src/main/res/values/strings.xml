@@ -8,4 +8,10 @@
     <string name="age_label">Age</string>
     <string name="age_value_text">%1$s</string>
 
+    <string name="name_validation_message">Text only and characters like comma or period</string>
+    <string name="email_validation_message">Must be a validated in right email format</string>
+    <string name="phone_validation_message">Must be validated in the right PH mobile number format, e.g. 09878765646 / +639876542345</string>
+    <string name="age_validation_message">age must be greater than or equal to 18 years old</string>
+    <string name="calendar_date">%1$s / %2$s / %3$s</string>
+
 </resources>
